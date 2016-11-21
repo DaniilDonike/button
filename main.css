@@ -20,6 +20,8 @@
 	color: #fff;
 }
 
-
+.button:hover {
+	background: #666;
+}
 
 
