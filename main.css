@@ -1,4 +1,4 @@
-.button {
+.button, .button2 {
 	/*margin: 200px;*/
 	height: 50px;
 	width: 150px;
@@ -11,7 +11,7 @@
 	border-right: 3px solid #000;
 }
 
-.button a {
+.button a, .button2 a {
 	text-decoration: none;
 	font-family: arial;
 	font-size: 14px;
@@ -20,7 +20,13 @@
 	color: #fff;
 }
 
-.button:hover {
+.button2 {
+	margin-top: 155px;
+	border-bottom: 0;
+	border-right:  0;
+}
+
+.button:hover, .button2:hover {
 	background: #666;
 }
 

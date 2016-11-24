@@ -13,12 +13,20 @@
 // });
 var butt = document.getElementById('butt');
 	butt.onmousedown = function(){
-		butt.style.marginTop = "155px";
-		butt.style.borderBottom = "0";
-		butt.style.borderRight = "0";
+		// butt.style.marginTop = "155px";
+		// butt.style.borderBottom = "0";
+		// butt.style.borderRight = "0";
+		butt.className = "button2";
+
 	}
 	butt.onmouseup = function(){
-		butt.style.marginTop = "150px";
-		butt.style.borderBottom = "5px solid #000";
-		butt.style.borderRight = "3px solid #000";
+		// butt.style.marginTop = "150px";
+		// butt.style.borderBottom = "5px solid #000";
+		// butt.style.borderRight = "3px solid #000";
+		butt.className = "button";
 	}
+
+
+
+
+	//window.location.href = "http://profhelp.com.ua"; перевод на другую станицу
